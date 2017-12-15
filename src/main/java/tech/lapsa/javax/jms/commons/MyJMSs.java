@@ -19,7 +19,7 @@ public final class MyJMSs {
     private MyJMSs() {
     }
 
-    public static JMSRuntimeException uchedked(JMSException e) {
+    public static JMSRuntimeException uchedked(final JMSException e) {
 	return new JMSRuntimeException(e.getMessage(), e.getErrorCode(), e.getCause());
     }
 
@@ -46,7 +46,7 @@ public final class MyJMSs {
 		.map(mmm -> {
 		    try {
 			return mmm.getJMSMessageID();
-		    } catch (JMSException e) {
+		    } catch (final JMSException e) {
 			return null;
 		    }
 		});
@@ -57,7 +57,7 @@ public final class MyJMSs {
 		.map(mmm -> {
 		    try {
 			return mmm.getJMSCorrelationID();
-		    } catch (JMSException e) {
+		    } catch (final JMSException e) {
 			return null;
 		    }
 		});
@@ -68,7 +68,7 @@ public final class MyJMSs {
 		.map(mmm -> {
 		    try {
 			return mmm.getJMSDestination();
-		    } catch (JMSException e) {
+		    } catch (final JMSException e) {
 			return null;
 		    }
 		}) //
@@ -96,7 +96,7 @@ public final class MyJMSs {
 		.map(q -> {
 		    try {
 			return q.getQueueName();
-		    } catch (JMSException e) {
+		    } catch (final JMSException e) {
 			return null;
 		    }
 		}) //
@@ -107,7 +107,7 @@ public final class MyJMSs {
 		.map(q -> {
 		    try {
 			return q.getTopicName();
-		    } catch (JMSException e) {
+		    } catch (final JMSException e) {
 			return null;
 		    }
 		}) //
