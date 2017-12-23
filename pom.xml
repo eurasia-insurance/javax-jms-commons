@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>tech.lapsa.maven</groupId>
 		<artifactId>maven-general</artifactId>
-		<version>3.0</version>
+		<version>3.1</version>
 	</parent>
 
 	<groupId>tech.lapsa.javax</groupId>
@@ -16,7 +16,7 @@
 
 	<properties>
 		<!-- BOMS -->
-		<javax-javaee-bom.version>7.0</javax-javaee-bom.version>
+		<javax-javaee-bom.version>7.0a-SNAPSHOT</javax-javaee-bom.version>
 		<!-- tech -->
 		<java-commons.version>1.1-SNAPSHOT</java-commons.version>
 	</properties>
