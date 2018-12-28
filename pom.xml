@@ -57,9 +57,9 @@
 	</dependencies>
 
 	<scm>
-		<connection>scm:git:https://gitlab.lapsa.tech/lapsa/javax/jms-commons.git</connection>
-		<developerConnection>scm:git:https://gitlab.lapsa.tech/lapsa/javax/jms-commons.git</developerConnection>
-		<tag>v2.1</tag>
+		<connection>scm:git:https://github.com/eurasia-insurance/javax-jms-commons.git</connection>
+		<developerConnection>scm:git:https://github.com/eurasia-insurance/javax-jms-commons.git</developerConnection>
+		<tag>HEAD</tag>
 	</scm>
 
 	<issueManagement>
