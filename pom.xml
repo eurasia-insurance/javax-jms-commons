@@ -9,7 +9,7 @@
 
 	<groupId>tech.lapsa.javax</groupId>
 	<artifactId>javax-jms-commons</artifactId>
-	<version>20190113r2</version>
+	<version>CURRENT-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>Jave EE Lib : JMS commons</name>
@@ -59,7 +59,7 @@
 	<scm>
 		<connection>scm:git:https://github.com/eurasia-insurance/javax-jms-commons.git</connection>
 		<developerConnection>scm:git:https://github.com/eurasia-insurance/javax-jms-commons.git</developerConnection>
-		<tag>v20190113r2</tag>
+		<tag>HEAD</tag>
 	</scm>
 
 </project>
