@@ -16,9 +16,9 @@
 
 	<properties>
 		<!-- BOMS -->
-		<javax-javaee-bom.version>20190126r2</javax-javaee-bom.version>
+		<javax-javaee-bom.version>CURRENT-SNAPSHOT</javax-javaee-bom.version>
 		<!-- tech -->
-		<java-commons.version>20190126r2</java-commons.version>
+		<java-commons.version>CURRENT-SNAPSHOT</java-commons.version>
 	</properties>
 
 	<dependencyManagement>
